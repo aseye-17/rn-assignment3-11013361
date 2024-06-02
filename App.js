@@ -3,13 +3,13 @@ import { View, Text, ScrollView, TextInput, StyleSheet, FlatList, Image } from '
 
 const categories = [
   { id: '1', name: 'Exercise', tasks: 12, image: require('./assets/desk.png') },
-  { id: '2', name: 'Study', tasks: 12, image: require('./assets/desk.png') },
+  { id: '2', name: 'Study', tasks: 12, image: require('./assets/online.png') },
   { id: '3', name: 'Code', tasks: 10, image: require('./assets/desk.png') },
-  { id: '4', name: 'Cook', tasks: 8, image: require('./assets/desk.png') },
+  { id: '4', name: 'Cook', tasks: 8, image: require('./assets/online.png') },
   { id: '5', name: 'Party', tasks: 5, image: require('./assets/desk.png') },
-  { id: '6', name: 'Travel', tasks: 6, image: require('./assets/desk.png') },
+  { id: '6', name: 'Travel', tasks: 6, image: require('./assets/online.png') },
   { id: '7', name: 'Draw', tasks: 4, image: require('./assets/desk.png') },
-  { id: '8', name: 'Games', tasks: 9, image: require('./assets/desk.png') },
+  { id: '8', name: 'Games', tasks: 9, image: require('./assets/online.png') },
 ];
 
 const ongoingTasks = [
